@@ -13,7 +13,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="34dp"
-        android:id="@+id/textView2"
+        android:id="@+id/navigation_header"
         android:textSize="20sp"
         android:textColor="@android:color/background_light" />
 </RelativeLayout>
