@@ -17,6 +17,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.OptionalPendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
+
+import java.io.Serializable;
+
 /**
  * Created by debnayak on 11/10/17.
  */
@@ -25,7 +28,7 @@ public class LoginActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener,
         View.OnClickListener {
 
-    private static final String TAG = "SignInActivity";
+    private static final String TAG = "LoginActivity";
     private static final int RC_SIGN_IN = 9001;
 
     private GoogleApiClient mGoogleApiClient;
@@ -124,6 +127,7 @@ public class LoginActivity extends AppCompatActivity implements
           //  updateUI(true);
             Intent i = new Intent(getApplicationContext(),MainActivity.class);
             i.putExtra("account",acct.getDisplayName());
+//            i.putExtra("loginActivity", this);
             startActivity(i);
             setContentView(R.layout.activity_main);
         } else {
@@ -141,7 +145,7 @@ public class LoginActivity extends AppCompatActivity implements
     // [END signIn]
 
     // [START signOut]
-    private void signOut() {
+    public void signOut() {
         Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
                 new ResultCallback<Status>() {
                     @Override
