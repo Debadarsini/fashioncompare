@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "846212947406",
-    "project_id": "firebase-fashioncompare"
+    "project_number": "27837494497",
+    "project_id": "default-demo-app-6db6e"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:846212947406:android:efbabb289bddc1b1",
+        "mobilesdk_app_id": "1:27837494497:android:efbabb289bddc1b1",
         "android_client_info": {
           "package_name": "com.example.debnayak.fashioncompare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "846212947406-8tfj9t645survkp01i74irdqnqe220su.apps.googleusercontent.com",
+          "client_id": "27837494497-s9q8qr0sh8mhlajjf3fsd5vgm2qupvbn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "27837494497-gav96t2pjmrgjgtrp4klrpejbrp5kb30.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.debnayak.fashioncompare",
-            "certificate_hash": "23b7fda022692120297c6dbf829a5beb1529efeb"
+            "certificate_hash": "13f33c50d9f00cfaa6f69eeba944018ce5fc5a85"
           }
-        },
-        {
-          "client_id": "846212947406-48v5dm4l2iohr47eebg8g547lodfhc0f.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBiNixIpHCspd8tj5czLxy1iJPVja_SYjA"
+          "current_key": "AIzaSyDnuJt-quZ6dTAj_aIAP2wpSH1pPC28wOo"
         }
       ],
       "services": {

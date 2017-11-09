@@ -39,7 +39,8 @@
             android:layout_height="wrap_content"
             android:text="@string/signed_out"
             android:textColor="@android:color/white"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            />
 
         <TextView
             android:id="@+id/detail"

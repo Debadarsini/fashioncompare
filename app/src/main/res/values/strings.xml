@@ -14,4 +14,12 @@
     <string name="desc_google_icon">Google Logo</string>
     <string name="title_text">fashioncompare</string>
     <string name="loading">Loading…</string>
+    <string-array name="gender_array">
+        <item>Boy</item>
+        <item>Girl</item>
+        <item>Men</item>
+        <item>Women</item>
+     </string-array>
+
+    <string name="gender_prompt">Option</string>
 </resources>
